@@ -1,0 +1,48 @@
+{
+    "acKind": "ImageManifest",
+    "acVersion": "0.6.1",
+    "annotations": [
+        {
+            "name": "authors",
+            "value": "Yung Hwa Kwon <yung.kwon@damncarousel.com>"
+        },
+        {
+            "name": "description",
+            "value": "Alpine 3.2 with a fix for DNS resolutions"
+        }
+    ],
+    "dependencies": [
+        {
+            "imageName": "rktlaun.ch/gliderlabs/alpine",
+            "labels": [
+                {
+                    "name": "version",
+                    "value": "3.2"
+                },
+                {
+                    "name": "os",
+                    "value": "linux"
+                },
+                {
+                    "name": "arch",
+                    "value": "amd64"
+                }
+            ]
+        }
+    ],
+    "labels": [
+        {
+            "name": "version",
+            "value": "3.2"
+        },
+        {
+            "name": "os",
+            "value": "linux"
+        },
+        {
+            "name": "arch",
+            "value": "amd64"
+        }
+    ],
+    "name": "rktlaun.ch/nowk/alpine-bare"
+}
